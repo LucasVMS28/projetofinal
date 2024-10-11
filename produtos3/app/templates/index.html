@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block corpo %}
+
+
+    <div class="text-center">
+        <img src="/static/python.jpeg" class="img-fluid" alt="Campanha de Matrículas" style="max-width: 100%; height: auto;">
+    </div>
+    <br>
+<div class="container">
+    <section id="sobre" class="my-5">
+        <div style="height: 70px;"></div>
+        <h2>Descrição do Curso:</h2>
+        <p>
+            O curso de Python oferece uma experiência completa, levando os alunos do nível iniciante ao avançado. Começando com os conceitos básicos, como sintaxe e tipos de dados, os participantes constroem uma base sólida. À medida que avançam, aprendem a desenvolver aplicações reais com frameworks como Flask e Django e a trabalhar com análise de dados usando bibliotecas como Pandas e NumPy.
+            <br><br>
+            Na fase avançada, o foco é em projetos desafiadores, incluindo o desenvolvimento de APIs e automação de tarefas. Este curso prepara os alunos não apenas com habilidades técnicas, mas também com pensamento crítico e resolução de problemas, tornando-os aptos para atuar no mercado de trabalho como desenvolvedores proficientes em Python.
+            
+        </p>
+    </section>
+
+    <div>
+        <section class="container my-5 text-secondary">
+            <div style="height: 70px;" id="niveis"></div>
+            <h2 class="text-center text-light" id="niveis">Níveis</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/static/pisco1.jpeg" class="card-img-top img-fluid" alt="Informática">
+                        <div class="card-body">
+                            <h5 class="card-title ">Inicial</h5>
+                            <p class="card-text">Você aprenderá os fundamentos da linguagem Python. O curso cobre a sintaxe básica, tipos de dados, estruturas de controle, e manipulação de listas e dicionários. O objetivo é fornecer uma base sólida para que você escreva scripts simples e resolva problemas básicos. Ao final desse módulo, você será capaz de criar pequenos programas e entender conceitos essenciais.</p>
+                            <br><br><br>
+                            <a href="#informatica" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/static/python2.jpeg" class="card-img-top img-fluid" alt="Mecatrônica">
+                        <div class="card-body">
+                            <h5 class="card-title">Intermediário</h5>
+                            <p class="card-text">Você aprofundará seus conhecimentos em Python e explorará conceitos mais complexos. O curso inclui desenvolvimento de aplicações usando frameworks como Flask e Django, além da análise de dados com bibliotecas como Pandas e NumPy. Você aprenderá a manipular dados, criar visualizações e automatizar tarefas. Este nível prepara você para projetos desafiadores e soluções práticas.</p>
+                            <a href="#mecatronica" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="/static/python2.jpeg" class="card-img-top img-fluid" alt="Administração">
+                        <div class="card-body">
+                            <h5 class="card-title">Avançado</h5>
+                            <p class="card-text">Você dominará técnicas sofisticadas em Python. O curso abrange design de APIs, integração com bancos de dados, e desenvolvimento de aplicações web escaláveis e seguras. Você explorará programação orientada a objetos e design de software. Além disso, aprenderá sobre boas práticas de desenvolvimento, testes automatizados e otimização de desempenho. Este nível é ideal para quem deseja ser um desenvolvedor Python completo.</p>
+                            <a href="#administracao" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <br>
+
+    <div class="container-fluid bg-warning text-secondary">
+        <br>
+        <div style="height: 70px;" id="conteúdo"></div>
+        <h1  class="text-center text-white">Objetivos dos Cursos:</h1>
+        <br><br>
+
+        <div class="media text-right mb-4">
+            <div class="media-body mr-3">
+                <h5 class="mt-0 mb-1 text-white">Introdução ao Python</h5>
+                Neste módulo, você aprenderá os fundamentos da linguagem Python, abordando a sintaxe básica, estruturas de dados como listas, dicionários e tuplas, e controle de fluxo por meio de condicionais e loops. Este conhecimento fornecerá a base necessária para avançar em tópicos mais complexos.
+            </div>
+            <img class="ms-3 img-fluid" src="/static/imagick_convert.jpeg" alt="Imagem de exemplo" style="width: 164px; height: 164px;">
+        </div>
+
+        <div class="media mb-4">
+            <img class="me-3 img-fluid" src="/static/imagick_convert.jpeg" alt="Imagem de exemplo" style="width: 164px; height: 164px;">
+            <div class="media-body ml-3 ">
+                <h5 class="mt-0 text-white">Desenvolvimento de Aplicações Web</h5>
+                Aqui, você vai colocar em prática o que aprendeu, criando projetos que vão desde scripts simples até aplicações web. Você trabalhará com frameworks como Flask e Django para desenvolver aplicações que funcionam na internet.
+            </div>
+        </div>
+
+        <div class="media text-right mb-4">
+            <div class="media-body mr-3">
+                <h5 class="mt-0 mb-1 text-white">Análise de Dados</h5>
+                Aprenda a usar bibliotecas como Pandas e NumPy para trabalhar com dados. Você descobrirá como transformar dados brutos em informações úteis, criando gráficos e relatórios que ajudam a tomar decisões.
+            </div>
+            <img class="ms-3 img-fluid" src="/static/imagick_convert.jpeg" alt="Imagem de exemplo" style="width: 164px; height: 164px;">
+        </div>
+
+        <div class="media mb-4">
+            <img class="me-3 img-fluid" src="/static/imagick_convert.jpeg" alt="Imagem de exemplo" style="width: 164px; height: 164px;">
+            <div class="media-body ml-3">
+                <h5 class="mt-0 text-white">Automação de Tarefas</h5>
+                Neste módulo, você vai aprender a automatizar tarefas repetitivas, tornando seu trabalho mais eficiente. Usará ferramentas como Selenium e Beautiful Soup para coletar dados da web e criar scripts que fazem tarefas automaticamente.
+            </div>
+        </div>
+
+        <div class="media text-right mb-4">
+            <div class="media-body mr-3">
+                <h5 class="mt-0 mb-1 text-white">Desenvolvimento de Aplicações Web Avançadas</h5>
+                Aprofunde-se em conceitos mais avançados de desenvolvimento web, como APIs RESTful, autenticação de usuários, e integração com serviços externos. Você terá a oportunidade de trabalhar em projetos práticos que simulam situações do mundo real, preparando-o para desafios do mercado.
+            </div>
+            <img class="ms-3 img-fluid" src="/static/imagick_convert.jpeg" alt="Imagem de exemplo" style="width: 164px; height: 164px;">
+        </div>
+
+        <br>
+    </div>
+    <br><br><br>
+
+</div>
+
+{% endblock %}
